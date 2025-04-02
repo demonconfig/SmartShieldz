@@ -22,7 +22,7 @@ const SingleHelmet = ({ helmet }) => {
           Certification: <span>{certification}</span>{" "}
         </h6>
         <div className="single-helmet-price">
-          <span> ${price} </span>
+          <span> ₹{price} </span>
           <span>
             <StarRatings
               rating={rating}
