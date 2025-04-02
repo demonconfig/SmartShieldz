@@ -87,7 +87,7 @@ const MyOrder = () => {
             return (
               <div key={_id} className="row px-0 mx-0 my-4 py-3 my-order-item">
                 <div className="col-md-2">{product}</div>
-                <div className="col-md-1">${price}</div>
+                <div className="col-md-1">₹{price}</div>
                 <div className="col-md-2">{name}</div>
                 <div className="col-md-2">{address}</div>
                 
