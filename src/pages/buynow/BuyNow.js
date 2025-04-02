@@ -47,7 +47,7 @@ const BuyNow = () => {
                 <h4> Name: {name} </h4>
                 <h5> Type of Helmet: {type} </h5>
                 <h5> Certification: {certification} </h5>
-                <h5> Price: ${price} </h5>
+                <h5> Price: ₹{price} </h5>
 
                 <div className="pt-0 pb-4">
                   <StarRatings
